@@ -11,10 +11,7 @@ def get_book_text(path):
         #print(file_content)
         return file_content
 
-def count_words(text):
-    num_words = len(text.split())
-    #print(num_words)
-    return num_words
+from stats import count_words
 
 def count_characters(text):
     characters_dict = {}
